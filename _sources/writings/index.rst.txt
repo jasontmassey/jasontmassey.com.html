@@ -1,0 +1,13 @@
+Writings
+========
+
+.. toctree::
+   :maxdepth: 2
+
+   goodbye-master
+
+..   :caption: Writings
+..   :caption: Miscellaneous
+
+.. ----------------------------------------------------------------------------
+.. vim: sw=3 ts=3 et nowrap

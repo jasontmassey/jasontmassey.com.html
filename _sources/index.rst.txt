@@ -1,0 +1,16 @@
+Jason T. Massey
+===============
+
+A computer scientist devoted to UNIX-like operating systems, eclectic philosophy, humanistic ideals, and self-overcoming.
+
+.. toctree::
+   :maxdepth: 2
+
+   writings/index.rst
+   misc/index.rst
+
+..   :caption: Writings
+..   :caption: Miscellaneous
+
+.. ----------------------------------------------------------------------------
+.. vim: sw=3 ts=3 et nowrap

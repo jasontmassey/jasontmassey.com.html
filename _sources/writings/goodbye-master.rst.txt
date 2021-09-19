@@ -1,0 +1,21 @@
+Goodbye, Master: A Tribute to Dennis Ritchie
+============================================
+
+As per Wikipedia: `Dennis Ritchie`_ was an American computer scientist.
+He created the C programming language and, with long-time colleague `Ken Thompson`_, the `Unix`_ operating system.
+
+C and Unix, and, therefore, *Dennis Ritchie* set the direction of my life.
+Below is a tribute I wrote on February 12, 2012.
+The article takes on the form of a Unix manual ("`man page`_").
+
+`Goodbye, Master: You Inspired Me`_
+
+.. _`Dennis Ritchie`: https://en.wikipedia.org/wiki/Dennis_Ritchie
+.. _`Goodbye, Master: You Inspired Me`: /_static/gbye-mstr.html
+.. _`Ken Thompson`: https://en.wikipedia.org/wiki/Ken_Thompson
+.. _`man page`: https://en.wikipedia.org/wiki/Man_page
+.. _`Unix`: https://en.wikipedia.org/wiki/Unix
+
+
+.. ----------------------------------------------------------------------------
+.. vim: sw=3 ts=3 et nowrap

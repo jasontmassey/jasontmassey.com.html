@@ -1,0 +1,14 @@
+Contacting
+==========
+
+| The best way to contact me is via email:
+| ``jason`` ``@`` ``jasontmassey.com``
+
+You can also locate me at:
+
+* `Github`_
+* `LinkedIn`_
+
+.. _`Github`:   https://github.com/jasontmassey
+
+.. _`LinkedIn`: https://www.linkedin.com/in/jasontmassey/

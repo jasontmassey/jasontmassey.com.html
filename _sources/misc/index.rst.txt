@@ -1,0 +1,16 @@
+Miscellaneous
+=============
+
+.. toctree::
+   :maxdepth: 2
+
+   about
+   resume
+   photo
+   contact
+
+..   :caption: Miscellaneous
+..   :caption: Writings
+
+.. ----------------------------------------------------------------------------
+.. vim: sw=3 ts=3 et nowrap

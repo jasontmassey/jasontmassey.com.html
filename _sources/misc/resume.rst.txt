@@ -1,0 +1,13 @@
+Résumé
+======
+
+There are two versions of my résumé available:
+
+* `HTML`_ from my profile on LinkedIn, and
+* `PDF`_ created with the TeX typesetting system by Donald Knuth.
+
+.. _`HTML`: https://www.linkedin.com/in/jasontmassey/
+.. _`PDF`: https://github.com/jasontmassey/resume/blob/master/resume-jason-massey.pdf
+
+.. ----------------------------------------------------------------------------
+.. vim: sw=3 ts=3 et

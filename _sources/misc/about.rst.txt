@@ -1,0 +1,70 @@
+About
+=====
+
+.. rubric:: Computing
+
+In 1983, I got a Commodore-64, an Abacus C compiler, and an apparently insatiable appetite for all things `UNIX`_.
+I passionately advocate UNIX-style computing environments for business and pleasure.
+My principle areas of interest are algorithms, computer architecture, networking, and system software (i.e., assemblers, compilers, and operating systems).
+I am also seemingly obsessed with documentation systems (TeX, LaTeX, Texinfo, DocBook, AsciiDoc, reStructuredText, Sphinx, and the UNIX "roff" family of typesetters all fitting comfortably within my repertoire).
+I am a devotee of the FreeBSD UNIX-like operating system.
+I hold a Bachelor of Science in Computer Science from Purdue University,
+a Master of Business Administration (MBA) from Butler University,
+and have held positions as a computer science practitioner for my entire career.
+
+.. _`UNIX`: https://en.wikipedia.org/wiki/Unix
+
+
+.. rubric:: Languages
+
+I have an aptitude for pattern-recognition, and have always enjoyed human languages.
+Fortunately, the middle school I attended offered an 18-week exploratory language survey of Spanish, French, and German.
+After spending six weeks in each, students were expected to select one for further focus.
+I chose Spanish because French was (to my mind) rather *froufrou* (French for "heavily ornamented" or "fancy"),
+and the German instructor seemed, frankly, like a bitch.
+
+Spanish was perhaps the only "school" subject I honestly ever cared about.
+(I voraciously studied computers starting from age 12, but that was all on my own time.
+I don't think my brain truly came alive until I hit 19: since then, I have been something of a learning addict.)
+Because of my pattern recognition, I could excel easily without a ton of effort; and, besides, languages were fun.
+I took many steps to befriend native speakers, and by the time I reached freshman year in high school, I was becoming proficient.
+
+The language gods shined down on me again when my first high-school Spanish teacher entrusted me to work as the "International Day" student coordinator.
+Each year many foreign-exchange students were living in Indiana with a host family.
+My role was to match such a foreigner with a regular student from my high school,
+have the former spend the night before at the latter's house,
+then assist the day-of while the foreign-exchange students visited our high school.
+There was also a party for everyone involved.
+My executing this role all four years of high school got me exposed to many languages, cultures, and people.
+I still have a beloved friend from Mexico, **Patricio**, due to this good fortune.
+
+My high-school Spanish teachers (Pat Villas and John "Grande Juan" Evelo), saw burgeoning talent in me,
+so in my junior year connected me with a group of Purdue University students who traveled to Spain the summer of 1987.
+Looking back, I sense this international trip to be one of the most important events of my life.
+To this day, I still have a cherished friend from Spain, **Isabel**, whom I met that summer of '87.
+
+Upon returning from Spain, I worked as an official interpreter for the `1987 Pan American Games`_.
+As I was interested in weight-lifting, I volunteered to help with the weight-lifting events.
+My Spanish skills were strongly exercised (pun somewhat intended),
+especially when I had to perform a live-TV translation for an interview with a Cuban athlete who had defected to the United States a few years earlier.
+
+To this day, Spanish continues to be a key source of life-enrichment.
+
+.. _`1987 Pan American Games`: https://en.wikipedia.org/wiki/1987_Pan_American_Games
+
+In the years leading up to 2020, I started desiring to learn a second foreign language.
+My domestic partner (**Sheila**) enjoys French,
+and because of French's role in American history, in the English language itself,
+and in human history, I've decided to learn it.
+After many hours of listening to native French-speakers on YouTube,
+I've left behind my former opinion of it being *froufrou*,
+and have come to appreciate its influence and intrinsic beauty.
+One day, time and energy permitting, I'd like to learn German and Russian.
+
+
+.. .. rubric:: General Studies
+
+.. .. rubric:: Life Management
+
+.. ----------------------------------------------------------------------------
+.. vim: sw=3 ts=3 et nowrap

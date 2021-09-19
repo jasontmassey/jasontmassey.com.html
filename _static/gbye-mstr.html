@@ -1,0 +1,387 @@
+  <TITLE>UNIX man pages : gbye-mstr (command=gbye-mstr&section=ANY)</TITLE>
+  <hr>
+<PRE>GBYE-MSTR(7)	   FreeBSD Miscellaneous Information Manual	  GBYE-MSTR(7)
+
+<H2>NAME</H2>
+     <b>gbye-mstr</b> -- Goodbye, Master: My Tribute to Dennis Ritchie
+
+<H2>SYNOPSIS</H2>
+     <b>gbye-mstr</b> <b>--you</b> <b>--inspired</b> <b>--me</b>
+
+<H2>DESCRIPTION</H2>
+     1983.  Twelve years old.
+
+     I had been piddling around on the Commodore-64 computer that my Dad
+     bought for me the previous year.  In between games of `Jumpman' I would
+     program using C64 BASIC.  I still remember my first masterpiece of pro-
+     gramming logic:
+
+	   10 PRINT "HELLO"
+	   20 GOTO 10
+
+     (It wouldn't be the last infinite loop I would write, mind you.  It did,
+     however, have the singular distinction of being written <i>on</i> <i>purpose</i>.)
+
+     One afternoon after school (and after a brief romantic dalliance with a
+     Sears Catalog undergarments model) I received a brochure in the mail that
+     exhorted me to <i>LEARN</i> <i>C</i> <i>NOW!</i> Perusing the sample code on the glossy adver-
+     tisement, the first thoughts that jumped into my mind were, ``Where are
+     the line numbers? How does it do GOTO statements?'' I was perplexed; what
+     a strange language.  Nevertheless, I begged my Mom to buy me the Abacus C
+     Compiler.
+
+<H2>IMPLEMENTATION NOTES</H2>
+     At twelve I didn't know the difference between a `tutorial' and a
+     ``syntax reference.'' The documentation that accompanied the C compiler
+     was decidedly <i>not</i> a `tutorial' -- it was unintelligible gibberish (much
+     akin to the code I began writing shortly thereafter.)
+
+     Neither had I the foggiest idea of a ``segmentation fault.'' It would be
+     years later before I realized what that phrase meant or what had happened
+     when I typed in my first code snippet:
+
+	   #include &lt;stdio.h&gt;
+	   main()
+	   {
+	       int c;
+	       c = 7;
+
+	       printf("My number is %d\n", c);
+	       return 0;
+	   }
+
+     Do <i>NOT</i> ask me how I screwed that up -- but frankly, I did somehow.  The
+     thing `compiled' (whatever the hell that word meant) but upon running,
+     the whole machine just locked up... Had To Turn The Machine Off (HTTTMO).
+
+     <i>What</i> <i>does</i> <i>this</i> <i>mean?</i> <i>What</i> <i>is</i> <i>going</i> <i>on?</i> <i>Why</i> <i>is</i> <i>this</i> <i>happening?</i>
+
+     The rising of <i>those</i> <i>three</i> <i>specific</i> <i>questions</i> into my young mind would lay
+     the analytical foundation of my thinking which remains with me to this
+     very day.	Only now am I coming to realize their influence across many
+     dimensions of my life (philosophy, problem-solving, and the like).
+
+     <i>I'm</i> <i>not</i> <i>giving</i> <i>up</i> <i>until</i> <i>I</i> <i>get</i> <i>this</i> <i>figured</i> <i>out.</i>
+
+<H2>RETURN VALUES</H2>
+     One day while ``surfing the Compuserve'' at the break-neck pace of 300
+     baud I came across an interesting word: <i>Zork</i> -- and soon after the fol-
+     lowing vignette which would forever hold poetic sentiment for me:
+
+	   <i>West</i> <i>of</i> <i>House</i>
+	   You are standing in an open field west of a white house,
+	   with a boarded front door.
+
+	   There is a small mailbox here.
+
+     The game involved typing English commands which would be parsed, inter-
+     preted, then executed.
+
+	   &gt; open the mailbox
+	   Opening the mailbox reveals a leaflet.
+
+	   &gt; read the leaflet
+	   (taken)
+	   "Welcome to ZORK!
+
+	   Zork is a game of adventure, danger, and low cunning. In it
+	   you will explore some of the most amazing territory ever seen
+	   by mortals. No computer should be without one!"
+
+	   &gt; _
+
+     Immediately captivated, I spent multiplied hours navigating the labyrinth
+     of The Underground Empire.  My parents flipped a holy wig when the Com-
+     puserve bill arrived -- somewhere in the neighborhood of $400.  That was
+     the end of Compuserve for Jason.  However, it was not the last of Zork; I
+     soon discovered how to play Zork on what fashionable acronym users at the
+     time called a BBS -- a dial-up ``Bulletin Board System.''
+
+     I never did solve the Zork puzzle, however -- I had gotten distracted
+     with one small detail: <i>How</i> <i>does</i> <i>this</i> <i>thing</i> <i>work?</i> I simply <i>had</i> to figure
+     out how this `parsing' took place.
+
+<H2>ENVIRONMENT</H2>
+     It occurred to me that my C compiler was analogous to Zork: I typed in
+     some sort of <i>language</i> and they both responded with <i>action.</i> (Zork, at
+     least, had the decency to not crash my computer.)	So the mission was
+     clear: figure out how <i>compilers</i> work.
+
+     Through some mischief of Satan, no doubt, I came into possession of
+     ``Compilers: Principles, Techniques, and Tools'' (a.k.a.  ``The Dragon
+     Book'') by Alfred V. Aho, Ravi Sethi, and Jeffrey D. Ullman.  <i>What</i> <i>is</i>
+     <i>wrong</i> <i>with</i> <i>all</i> <i>these</i> <i>computer</i> <i>people?</i> I thought.  <i>Why</i> <i>does</i> <i>everything</i>
+     <i>have</i> <i>to</i> <i>be</i> <i>so</i> <i>hard</i> <i>to</i> <i>understand?</i> I ended up shelving that incomprehensi-
+     ble mess as well as my hopes of ever understanding how to write a com-
+     piler.  (What I would later discover is that the Dragon Book is to com-
+     pilers what Shakespeare is to literature -- I merely lacked the maturity
+     to realize it.)
+
+     So I turned my attention to BBSs -- how do <i>they</i> work?
+
+<H2>FILES</H2>
+     I had become attracted to dialing into a specific kind of BBS -- the
+     `Citadel'-style bulletin boards.  It was not unlike playing a Zork game:
+     there were `rooms' to visit, each one having a discussion going on.  It
+     would be here, in the context of a fringe messaging system, that I would
+     ``go through puberty'' in the C programming language (as well as in reli-
+     gious/philosophical inquiry, which I will address in future articles).
+
+     I had been running my own Citadel BBS, ``Critical Condition,'' from my
+     bedroom.  I obtained the C source code of Citadel-86, the ancestor of
+     various flavors of Intel 8086-compatible Citadel systems.	Just figuring
+     out how to get the thing <i>to</i> <i>compile</i> on my Borland Turbo C compiler was
+     one of the best learning experiences of my life.  <i>My</i> <i>God</i> <i>that</i> <i>was</i>
+     <i>painful.</i> But I learned so much poring over and modifying Hue Jr.'s code.
+     My `fork,' as they say, was entitled, `Zinfandel.' (As an aside: I forgot
+     that anyone besides me ran the Zinfandel flavor of Citadel, but I came
+     across a former enthusiast as I was surfing nostalgia: http://www.haven-
+     comm.com/page2/havenbbs.html.  I apparently asked $150 for my source code
+     when he asked for it; I'm not quite sure what was going through my head
+     at the time.)
+
+<H2>EXAMPLES</H2>
+     Time passed and I was now at Purdue University pursuing a computer sci-
+     ence degree.  I had been tutored by various books on C, by Hue Jr.'s
+     Citadel-86 code (in addition to a front-end BBS mailer called
+     `BinkleyTerm,' a FidoNet compatible electronic mail interface), and by
+     developing various utilities for the university. My attention and affec-
+     tion returned again to <i>compilers.</i>
+
+     I came upon a fine text entitled ``Compiler Design In C'' by Allen Holub
+     -- a handsome hardbound volume of inestimable value.  Through the coding
+     examples I could actually visualize how a parser worked!  Thank you, Mr.
+     Holub, because your text was my breakthrough moment.
+
+     I learned how to write a recursive descent parser.  The beauty of this
+     method is that given a context-free grammar, one hand-codes C functions
+     for each non-terminal -- let's just say it's a natural and intuitive way
+     to get parsing to crystallize in your head.  Not only so, but the whole
+     Way Of Recursion inspirationally manifests into an elegant method of
+     doing something co0l.  I found myself having quite a head start when I
+     got to the algorithms and data structures class -- recursion always seems
+     to throw people at first.	Mr. Holub's text along with ``Crafting a
+     Compiler with C'' by Charles Fischer made it all possible.
+
+<H2>DIAGNOSTICS</H2>
+     Standing on the shoulders of Holub and Fischer, I set upon the task of
+     writing my own Zork-style text adventure.	It was summer break...
+     <i>Perfect.</i> I had a friend at the time named Herman Sun who was, um, <i>into</i>
+     <i>gaming</i> <i>--</i> he mercilessly kicked my ass.  By this age (circa 21) my inter-
+     est in games was very much on the wane; however, my obsession with natu-
+     ral language parsing found its realization in a text adventure authored
+     by Herman and coded by me: `Dementia.'
+
+     Herman and I worked day and night, as I recall... he on the story and me
+     on the parser and game engine.  I chain-smoked and deluged my ashtray
+     (which sat on a pedestal at my side) with close to two packs a day of
+     cigarette butts, ashes, chewing gum, ...  and the occasional booger.
+
+     <i>It</i> <i>had</i> <i>a</i> <i>glorious</i> <i>parser,</i> <i>damn</i> <i>it.</i>
+
+     It could handle complex statements such as:
+
+	  walk over to the door, pick up the large knife,
+	  then stab the damn hydra.
+
+     Herman and I envisioned the release of two sequels to `Dementia,' but
+     alas and alack, the summer came to an end, along with my interest in
+     games.
+
+<H2>COMPATIBILITY</H2>
+     A common characteristic of religious fundamentalists is their holding to
+     a `sacred text' as the absolute, inerrant, infallible, <i>theopneustos</i>, WORD
+     OF GOD.
+
+     Some years earlier (circa 1987) my friend, Dave Appel, had introduced me
+     to ``The C Programming Language'' by Brian Kernighan and Dennis Ritchie.
+     Dave had been the very first caller to my bedroom-based Citadel BBS -- he
+     detected that I had my modem ill-configured.  After instructing me in the
+     ways of the Hayes-compatible command set, he planted the seeds of a long-
+     time friendship.  (Dave, a Mormon, would also become my first great oppo-
+     nent in THE ONLINE THEOLOGY WARS.)
+
+     My first youthful impression of ``K&R'' was...  <i>meh.</i>
+
+     It was typeset in a rather stale-looking format and lacked the attrac-
+     tive, colorful covers that regularly adorned the C books I owned by Her-
+     bert Schildt.  Besides, who wanted to program in boring <i>ANSI</i> <i>C</i> when Bor-
+     land had all those fancy (read: non-standard, non-portable) features?
+
+     But now, having spent much time reading, writing, and internalizing this
+     `C' language, my mind turned its gaze to C itself...
+
+     <i>C,</i> <i>whence</i> <i>thou,</i> <i>my</i> <i>favourite?</i>
+
+     I have no idea why, but Dave's copy of K&R from years ago came to mind.
+     Within a few hours I clutched my very own copy of <i>La</i> <i>Obra</i> <i>Dulce.</i> I was
+     immediately struck by the curtness and brevity with which it presented
+     its thesis.  No hand-holding.  No garnishments, frivolous ornaments, or
+     decoration.  A language tutorial by two of the Founding Fathers of com-
+     puter science.
+
+     Brian Kernighan and Dennis Ritchie, along with their original readership,
+     were a regiment of assembly language programmers who <i>knew</i> <i>the</i> <i>computer</i> <i>as</i>
+     <i>a</i> <i>machine.</i> Accustomed to precision, concision, and rigor, these <i>samurai</i>
+     possessed an acuity of mind which can be tempered in no other way.  They
+     had no `frameworks' standing by; no Microsoft class library to abstract
+     away the entire architecture into a gentle, padding-on-all-corners play-
+     ground.  They had the machine, they had their minds, and that's all that
+     was needed.  As the capability of Washington and Jefferson eclipses that
+     of modern politicians, so these, our frontier fathers, do so exceedingly
+     outshine any modern programmers.
+
+     I had located <i>La</i> <i>Sagrada</i> <i>Escritura</i>.  A few pages into the text and I felt
+     that my training in C, UNIX, and computer science in general was all
+     really just getting started.
+
+<H2>ERRORS</H2>
+     <i>UNIX</i> was a weird thing.  And why these computer science professors of
+     mine kept evangelizing me with their pitiful zeal was a mystery.  For my
+     assignments I would switch on Le Ole 386, launch Windows and Borland's
+     Turbo C, and ``just get it done.'' But these jokers kept <i>insisting</i> that I
+     compile my work under the obviously sub-functional `cc' utility -- which
+     choked on all my pertie Borland language `enhancements.'
+
+     However, having grown tired of locally text-editing my source code then
+     FTP-ing it to my <i>$HOME</i> directory (only to have `cc' botch the damn
+     thing), I decided to break down and <i>use</i> <i>this</i> <i>stupid</i> <i>UNIX</i> from start to
+     finish.
+
+     The only text editor available was `vi.' I FTP-ed over my btree.c file I
+     had already begun on my PC a few days earlier.  Never having used `vi'
+     before, I kinda proceeded as follows:
+
+	  vi btree.c
+
+	  ``WHAT THE HAAPPY FU@#$*&! IS G0ING ON?!??!''
+
+     Every time I touched the keyboard the file would become more and more
+     contorted!
+
+     (Anyone who's attempted `vi' (without warning) knows that I speaketh
+     truth.  Whatever <i>moron</i> wrote that program had some serious mental defi-
+     ciencies in my estimation.)
+
+     So, I pushed my B-tree programming project on the stack, and for the bet-
+     ter part of a Saturday I was reading UNIX manual pages about `vi,' pur-
+     posefully iterating over <i>every</i> <i>command</i> to see how it worked.
+
+     Ok. I had <i>Sunday</i> to write my B-tree program.  Working with `vi' was now
+     tolerable.  It took me all day to complete the project, but as the day
+     drew on I could feel that I was becoming rather proficient at this
+     ``stupid little text-editing program.'' I came to see that there was a
+     cool logic behind the program's design.  In fact, by day's end I was nav-
+     igating around and editing with a nimble efficiency, never having to
+     remove my hands from the standard typing position.  When I first got my
+     C64, my mother had taught me how to position my fingers so I was already
+     a rather quick typist.  By relieving me from lifting my hands from the
+     keyboard to grab a mouse, scroll, point-click-shoot-he-scores, I really
+     could get a <i>lot</i> more accomplished.  It <i>really</i> struck me when I returned
+     to the graphical world of Microsoft Windows -- I was quickly annoyed at
+     all the <i>work</i> I had to perform just to accomplish a basic editing task.
+     Having invested so much time learning `vi,' I ended up sticking with it.
+     Nowadays, after more than 15 years, I'm a <i>phenom</i> with `vim,' an improved
+     version of `vi,' but I must confess to have recently begun flirting with
+     `Emacs.' From what I can tell they're both excellent tools.
+
+<H2>SEE ALSO</H2>
+     <i>Having</i> <i>invested...</i> <i>so</i> <i>much</i> <i>time....</i>
+
+     An `investment' is an initial outlay of something valuable (e.g., time or
+     money) with the expectation that something <i>even</i> <i>greater</i> will return.
+     Honestly, I hadn't looked upon my ``Saturday with vi'' as an investment.
+     I certainly lacked any <i>expectation</i> that something of greater value was
+     coming my way.  But <i>damned</i> if it wasn't one of the highest-returning
+     investments of my technical life (bested, perhaps, only by the diligent
+     study of ``Mastering Regular Expressions'' by Jeffrey Friedl).
+
+     It's taken <i>years</i> to realize, but my experience with the `vi' editor typi-
+     fies my aggregate experience with UNIX as a whole.  There is a cycle
+     around which I have traveled countless times:
+
+	  1.   I need to do something;
+
+	  2.   I locate a UNIX utility;
+
+	  3.   I get annoyed that I cannot use the utility <i>immediately;</i>
+
+	  4.   I study the utility via `man' pages or books;
+
+	  5.   I spend <i>hours</i> practicing;
+
+	  6.   I become fabulously productive with the utility;
+
+	  7.   it becomes an indispensable element of my repertoire; and
+	       finally,
+
+	  8.   <i>I</i> <i>don't</i> <i>know</i> <i>how</i> <i>I</i> <i>ever</i> <i>lived</i> <i>without</i> <i>it</i> <i>before.</i>
+
+     I would have to seriously think if any UNIX utility ever played out dif-
+     ferently than described above (besides the mere basics like `cd' and
+     `ls.') And thus it would not be a mistake to view UNIX, in aggregate, as
+     just the overarching environment wherein this <i>recursive-learning</i> takes
+     place.  I say `recursive' because in order to learn UNIX I had to learn,
+     say, X, Y, and Z.	But yet, to learn X I had to learn A, B, and C; to
+     learn Y I had to learn D, E, and F; and to learn Z I had to learn G, H,
+     and I (and so on) -- just like performing a depth-first-search traversal
+     of a tree.
+
+     To some this is nothing short of hell.  In tree-traversing algorithms,
+     there is a point at which results begin to carry their way back up to the
+     root.  Though UNIX can present itself as an endless pit of `man' pages
+     and ``things to read,'' there really does come a point when the results
+     flow up, to much benefit.
+
+     UNIX is also an <i>iterative-learning</i> environment.  The reason is that no
+     human has the ability to exhaustively perform the depth-first-search on
+     the UNIX knowledge-tree as described above.  After all, we have to get
+     some work done here and there.  But when my interest or a relevant occa-
+     sion arises, I find myself re-iterating over past UNIX knowledge trees,
+     each time going deeper, sharpening myself as a <i>craftsman,</i> as an <i>artisan.</i>
+     It is said that ``repetition is the keystone of learning,'' locking pre-
+     viously viewed elements into an enduring edifice of knowledge.
+
+     UNIX is a haven for autodidacts who love learning.  What I have learned
+     <i>from</i> UNIX, <i>about</i> UNIX, and <i>through</i> UNIX has <i>never</i> <i>failed</i> to pay back a
+     hundred-fold return on my investments of time, attention, and affection.
+
+<H2>STANDARDS</H2>
+     Dennis Ritchie created the C programming language, and along with his
+     long-time friend Ken Thompson, the UNIX operating system.
+
+     If it can be said that Thomas Edison, through his invention of the incan-
+     descent light bulb, did thereby illumine the world, then it must be con-
+     fessed that Dennis Ritchie, in having invented the C programming lan-
+     guage, did thereby give light to the world of computer science.
+
+     A twelve year old boy was once admonished to <i>Learn</i> <i>C</i> <i>Now!</i> Having set
+     forth upon this directive, this <i>language</i> (and, by extension, its
+     <i>inventor)</i> did radically cultivate in him an insatiable thirst for knowl-
+     edge, for understanding, and for mastery.
+
+     To the gentle genius whom I never had the privilege of meeting: <i>Thank</i>
+     <i>you.</i> This manual page seeks to express my gratitude, appreciation, and
+     respect.
+
+<H2>HISTORY</H2>
+			       Dennis MacAlistair Ritchie
+
+			 September 9, 1941 -- October 12, 2011
+
+				    Goodbye, Master
+
+				     Blessed Father
+
+				   Enduring Visionary
+
+<H2>AUTHORS</H2>
+     Jason Massey, <i>jason@janixsoft.com</i>
+
+<H2>BUGS</H2>
+     Mr. Ritchie, as any human, must certainly have possessed faults and
+     shortcomings. From my perspective, however, despite any flaws he <i>may</i> have
+     had, he has more than supererogated by virtue of his enormous contribu-
+     tion to computer science and, by extension, to humanity itself.
+
+<a href="http://janixsoft.com">Janix Software</a>		       February 12, 2012		<a href="http://janixsoft.com">Janix Software</a></PRE>

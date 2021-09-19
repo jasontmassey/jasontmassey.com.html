@@ -1,0 +1,8 @@
+Photos
+======
+
+.. image:: jason-massey-bw-cropped.JPG
+   :align: center
+
+.. image:: janixkid-bw.jpg
+   :align: center

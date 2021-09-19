@@ -6,7 +6,7 @@ He created the C programming language and, with long-time colleague `Ken Thompso
 
 C and Unix, and, therefore, *Dennis Ritchie* set the direction of my life.
 Below is a tribute I wrote on February 12, 2012.
-The article takes on the form of a Unix manual ("`man page`_").
+The article takes on the form of a Unix manual (`man page`_).
 
 `Goodbye, Master: You Inspired Me`_
 
